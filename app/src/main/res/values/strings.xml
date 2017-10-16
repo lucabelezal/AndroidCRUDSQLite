@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android_CRUD_SQLite</string>
+    <string name="app_name">UNINOVE CRUD SQLite</string>
     <string name="action_settings">Settings</string>
     <string name="action_save">Salvar</string>
     <string name="action_detele">Deletar</string>
