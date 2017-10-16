@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Android_CRUD_SQLite</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_detele">Deletar</string>
+    <string name="action_list">Ordenar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_check">Concluir</string>
+    <string name="action_add">Adicionar</string>
+    <string name="title_activity_add_course">PersistCourseActivity</string>
+    <string name="title_activity_course_detail">CourseDetailActivity</string>
+    <string name="action_search">Buscar</string>
+    <string name="msg_input_error">Preencha esse campo</string>
+    <!--Course-->
+    <string name="course_active">Ativo</string>
+    <string name="course_inactive">Inativo</string>
+    <!--Course-->
+    <!--DeleteDialog-->
+    <string name="dialog_title">Atenção</string>
+    <string name="dialog_msg">Deseja realmente excluir esse curso?</string>
+    <!--DeleteDialog-->
+    <!--MsgsDelete/Insert-->
+    <string name="msg_insert">Curso cadastrado</string>
+    <string name="msg_remove">Curso removido</string>
+    <string name="text_example">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de Conteúdo aqui, conteúdo aqui, fazendo com que ele tenha uma aparência similar a de um texto legível.</string>
+    <string name="date_example">01/01/2017 23:59:59</string>
+    <string name="status_example">Ativo</string>
+    <string name="hours_example">20h</string>
+    <string name="classHours_title">Carga Horária:</string>
+    <string name="registerDate_title">Data Cadastro:</string>
+    <string name="description_title">Descrição</string>
+    <string name="status_title">Status:</string>
+    <string name="name_title">Nome</string>
+    <string name="save_title">Salvar</string>
+    <!--DeleteDialog-->
+</resources>

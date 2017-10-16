@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MaterialSearchViewStyle">
+        <!-- Background for the search bar -->
+        <item name="searchBackground">@color/white</item>
+        <!-- Change voice icon -->
+        <item name="searchVoiceIcon">@drawable/microphone_vector</item>
+        <!-- Change clear text icon -->
+        <item name="searchCloseIcon">@drawable/close_vector</item>
+        <!-- Change up icon -->
+        <item name="searchBackIcon">@drawable/arrow_left_vector</item>
+        <!-- Change icon for the suggestions -->
+        <item name="searchSuggestionIcon">@drawable/ic_suggestion</item>
+        <!-- Change background for the suggestions list view -->
+        <item name="searchSuggestionBackground">@color/whiteTransparent</item>
+        <!-- Change text color for edit text. This will also be the color of the cursor -->
+        <item name="android:textColor">@android:color/black</item>
+        <!-- Change hint text color for edit text -->
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <!-- Hint for edit text -->
+        <item name="android:hint">@string/action_search</item>
+    </style>
+
+    <style name="CyanButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorCyan900</item>
+        <item name="colorButtonNormal">@color/colorCyan800</item>
+    </style>
+
+    <style name="LightBlueButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorLightBlue900</item>
+        <item name="colorButtonNormal">@color/colorLightBlue800</item>
+    </style>
+
+    <!--Floating label text style-->
+    <style name="MyHintText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorCyan900</item>
+    </style>
+
+    <!--Input field style-->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#90A4AE</item>
+        <item name="colorControlActivated">@color/colorCyan900</item>
+    </style>
+
+</resources>
