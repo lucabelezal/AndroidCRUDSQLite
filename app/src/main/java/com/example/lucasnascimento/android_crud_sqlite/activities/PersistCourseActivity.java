@@ -64,7 +64,7 @@ public class PersistCourseActivity extends AppCompatActivity {
             }
         });
 
-        sbClassHours.setMax(100);
+        sbClassHours.setMax(3500);
         sbClassHours.setProgress(course.getClassHours()>5 ? course.getClassHours() : 5);
         progress = course.getClassHours()>5 ? course.getClassHours() : 5;
         sbClassHours.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
