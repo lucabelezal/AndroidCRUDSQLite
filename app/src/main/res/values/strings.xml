@@ -28,9 +28,9 @@
     <string name="hours_example">20h</string>
     <string name="classHours_title">Carga Horária:</string>
     <string name="registerDate_title">Data Cadastro:</string>
-    <string name="description_title">Descrição</string>
+    <string name="description_title">Descrição do Curso</string>
     <string name="status_title">Status:</string>
-    <string name="name_title">Nome</string>
+    <string name="name_title">Nome do Curso</string>
     <string name="save_title">Salvar</string>
     <!--DeleteDialog-->
 </resources>
